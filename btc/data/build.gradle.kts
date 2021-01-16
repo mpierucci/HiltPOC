@@ -1,13 +1,10 @@
 import dependencies.Libs
 import dependencies.Test
+import plugins.`module-plugin`
 
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     `module-plugin`
-}
-
-android {
-    defaultConfig.applicationId = "com.mpierucci.android.hiltpoc"
 }
 
 dependencies {
@@ -20,3 +17,5 @@ dependencies {
     androidTestImplementation(Test.Esspresso.jUnit)
     androidTestImplementation(Test.Esspresso.core)
 }
+
+
