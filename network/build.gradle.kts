@@ -7,9 +7,10 @@ plugins {
 
 dependencies {
     implementation(Libs.okHttp)
-    implementation(Libs.Retrofit.retrofit)
     implementation(Libs.Retrofit.moshiConverter)
     implementation(Libs.Dagger.Hilt.core)
+
+    api(Libs.Retrofit.retrofit)
 
     kapt(Libs.Dagger.Hilt.compiler)
 }

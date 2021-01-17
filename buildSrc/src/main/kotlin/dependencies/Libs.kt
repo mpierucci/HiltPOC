@@ -82,6 +82,7 @@ object Libs {
             const val android = "com.google.dagger:hilt-android:$version"
             const val core = "com.google.dagger:hilt-core:$version"
             const val compiler = "com.google.dagger:hilt-compiler:$version"
+            const val androidCompiler = "com.google.dagger:hilt-android-compiler:$version"
             const val jetPack = "androidx.hilt:hilt-lifecycle-viewmodel:$jetPackVersion"
             const val jetPackCompiler = "androidx.hilt:hilt-compiler:$jetPackVersion"
         }
