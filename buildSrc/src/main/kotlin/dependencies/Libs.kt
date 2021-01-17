@@ -74,6 +74,17 @@ object Libs {
         private const val daggerVersion = "2.30.1"
         const val core = "com.google.dagger:dagger:$daggerVersion"
         const val compiler = "com.google.dagger:dagger-compiler:$daggerVersion"
+
+        object Hilt {
+            private const val jetPackVersion = "1.0.0-alpha02"
+            private const val version = "2.31-alpha"
+
+            const val android = "com.google.dagger:hilt-android:$version"
+            const val core = "com.google.dagger:hilt-core:$version"
+            const val compiler = "com.google.dagger:hilt-compiler:$version"
+            const val jetPack = "androidx.hilt:hilt-lifecycle-viewmodel:$jetPackVersion"
+            const val jetPackCompiler = "androidx.hilt:hilt-compiler:$jetPackVersion"
+        }
     }
 
     object Stetho {
