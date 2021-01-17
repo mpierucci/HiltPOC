@@ -9,7 +9,7 @@ class MappingCharterTest {
 
     @Test
     fun `maps dto into entity`() {
-        val bpiEntity = DomainBpi("code", "desc", "symbol")
+        val bpiEntity = DomainBpi("code", "desc", "symbol","rate")
         val expected = DomainCharter(
             disclaimer = "disc",
             name = "name",
@@ -17,7 +17,7 @@ class MappingCharterTest {
             bpis = listOf(bpiEntity)
         )
 
-        val bpi = Bpi("code", "desc", "symbol")
+        val bpi = Bpi("code", "desc", "symbol","rate")
         val sut = Charter(
             disclaimer = "disc",
             chartName = "name",

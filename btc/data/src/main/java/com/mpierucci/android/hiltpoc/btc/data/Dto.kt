@@ -12,6 +12,7 @@ internal data class Bpi(
     val code: String,
     val description: String,
     val symbol: String,
+    val rate:String,
 )
 
 data class Time(val updated: String)

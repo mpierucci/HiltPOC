@@ -14,4 +14,4 @@ internal fun Charter.toEntity(): DomainCharter {
 }
 
 
-internal fun Bpi.toEntity(): DomainBpi = DomainBpi(code, description, symbol)
+internal fun Bpi.toEntity(): DomainBpi = DomainBpi(code, description, symbol, rate)

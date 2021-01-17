@@ -22,7 +22,10 @@ internal class AndroidPlugin : CompositePlugin {
             minSdkVersion(SDK_MIN_VERSION)
 
             testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
         }
+
+        androidExtension.buildFeatures.viewBinding = true
     }
 
     companion object {

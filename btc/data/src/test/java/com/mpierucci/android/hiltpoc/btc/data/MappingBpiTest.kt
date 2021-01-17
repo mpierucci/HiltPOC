@@ -8,9 +8,9 @@ class MappingBpiTest {
 
     @Test
     fun `maps dto into entity`() {
-        val expected = DomainBpi("code", "desc", "symbol")
+        val expected = DomainBpi("code", "desc", "symbol","rate")
 
-        val sut = Bpi("code", "desc", "symbol")
+        val sut = Bpi("code", "desc", "symbol","rate")
 
         val actual = sut.toEntity()
 
