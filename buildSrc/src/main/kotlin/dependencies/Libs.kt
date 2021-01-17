@@ -40,6 +40,7 @@ object Libs {
 
         object LifeCycle {
             private const val lifeCycleVersion = "2.2.0"
+            const val runtime =  "androidx.lifecycle:lifecycle-runtime-ktx:$lifeCycleVersion"
             const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:$lifeCycleVersion"
             const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleVersion"
             const val test = "androidx.arch.core:core-testing:$lifeCycleVersion"

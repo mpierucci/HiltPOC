@@ -4,6 +4,6 @@ import retrofit2.http.GET
 
 internal interface BtcApi {
 
-    @GET("/bpi/currentprice.json")
+    @GET("bpi/currentprice.json")
     suspend fun getCharter(): Charter
 }
